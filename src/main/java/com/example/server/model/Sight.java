@@ -13,6 +13,10 @@ import java.util.Objects;
 public class Sight {
     private Long id;
     private String name;
+    private String text;
+    private double longitude;
+    private double latitude;
+
 
     @Override
     public boolean equals(Object o) {

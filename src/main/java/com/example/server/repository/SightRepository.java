@@ -34,6 +34,9 @@ public class SightRepository {
             if(Objects.equals(s.getId(), sight.getId())){
                 s.setId(sight.getId());
                 s.setName(sight.getName());
+                s.setText(sight.getText());
+                s.setLatitude(sight.getLatitude());
+                s.setLongitude(sight.getLongitude());
                 return s;
             }
         }
