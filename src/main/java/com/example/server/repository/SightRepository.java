@@ -33,6 +33,7 @@ public class SightRepository {
         for(Sight s:sights){
             if(Objects.equals(s.getId(), sight.getId())){
                 s.setId(sight.getId());
+                s.setType(sight.getType());
                 s.setName(sight.getName());
                 s.setText(sight.getText());
                 s.setLatitude(sight.getLatitude());
